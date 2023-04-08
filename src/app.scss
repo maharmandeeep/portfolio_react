@@ -1,0 +1,23 @@
+.app{
+    height: 100vh;
+  
+
+    .section{
+       width: 100%;
+       height: calc(100vh - 70px);
+     
+       position: relative;
+       top: 70px;    
+       scroll-snap-align: start;
+       scroll-snap-type: y mandatory;
+      overflow-y: auto; //scrool
+    
+
+       > *{
+        width: 100%;
+       height: calc(100vh - 70px);
+       scroll-snap-align: start;
+         }
+     }
+
+}
