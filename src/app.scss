@@ -12,6 +12,10 @@
        scroll-snap-type: y mandatory;
       overflow-y: auto; //scrool
       scroll-behavior: smooth;
+      scrollbar-width: none;//only for firefox
+      &::-webkit-scrollbar{
+        display: none; //for all broweser
+      }
     
 
        > *{
