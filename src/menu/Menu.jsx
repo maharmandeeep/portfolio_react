@@ -15,7 +15,7 @@ function Menu( {sideMenu,setsideMenu}){
                 </li>
                 <li>
                     <a href="#works" onClick={()=>setsideMenu(!sideMenu)}>Works</a>
-                </li>
+                </li> 
                 <li>
                     <a href="#testimonials" onClick={()=>setsideMenu(!sideMenu)}>Testimonials</a>
                 </li>
