@@ -29,7 +29,7 @@ export default function Topbar({sideMenu,setsideMenu}) {
           <div className="hamburger" onClick={()=>setsideMenu(!sideMenu)}>
             <span className="line1"></span>
             <span className="line2"></span>
-            <span className="line3"></span>
+            <span className="line3"></span> 
           </div>
           
           
